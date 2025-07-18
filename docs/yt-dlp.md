@@ -36,3 +36,54 @@ Details here: <https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#output-templa
 ```bash
 yt-dlp -t mp4 --embed-metadata -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "https://www.youtube.com/playlist?list=[PLAYLIST]"
 ```
+
+## Useful yt-dlp Commands
+
+### Download Video
+
+```bash
+yt-dlp <video-url>
+```
+
+### Download Playlist
+
+```bash
+yt-dlp <playlist-url>
+```
+
+### Download Audio Only
+
+```bash
+yt-dlp -f bestaudio <video-url>
+```
+
+### Specify Output File Name
+
+```bash
+yt-dlp -o "%(title)s.%(ext)s" <video-url>
+```
+
+### Download Subtitles
+
+```bash
+yt-dlp --write-sub --sub-lang en <video-url>
+```
+
+### Skip Download if File Exists
+
+```bash
+yt-dlp --no-overwrites <video-url>
+```
+
+### Limit Download Speed
+
+```bash
+yt-dlp --limit-rate 1M <video-url>
+```
+
+### Download Videos in Specific Resolution
+
+```bash
+yt-dlp -f "bestvideo[height<=720]+bestaudio/best" <video-url>
+```
+
