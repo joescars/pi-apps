@@ -4,17 +4,17 @@ This folder contains helpful documentation for various tools and applications. B
 
 ## Table of Contents
 
-1. [Homebridge Helpful Info](./docs/homebridge-info.md)
+1. [Homebridge Helpful Info](./docs/homebridge.md)
    - Useful commands and tips for managing Homebridge.
 
 2. [GitHub Actions Runner](./docs/github-runners.md)
    - Commands and setup instructions for self-hosted GitHub runners.
 
-3. [Pihole Helpful Info](./docs/pihole-info.md)
+3. [Pihole Helpful Info](./docs/pihole.md)
    - Commands and tips for managing Pihole.
 
-4. [Plex Info](./docs/plex-info.md)
+4. [Plex Info](./docs/plex.md)
    - Instructions and commands for managing Plex Media Server.
 
-5. [yt-dlp Commands](./docs/yt-dlp-commands.md)
+5. [yt-dlp Commands](./docs/yt-dlp.md)
    - Useful commands for downloading videos and playlists using yt-dlp.
