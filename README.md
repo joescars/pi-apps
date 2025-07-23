@@ -13,8 +13,8 @@ This folder contains helpful documentation for various tools and applications. B
 3. [Pihole Helpful Info](./docs/pihole.md)
    - Commands and tips for managing Pihole.
 
-4. [Plex Info](./docs/plex.md)
-   - Instructions and commands for managing Plex Media Server.
+4. [Jellyfin Info](./docs/jellyfin.md)
+   - Instructions and commands for managing Jellyfin Media Server.
 
 5. [yt-dlp Commands](./docs/yt-dlp.md)
    - Useful commands for downloading videos and playlists using yt-dlp.
