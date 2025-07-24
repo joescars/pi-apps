@@ -1,64 +1,22 @@
-# GitHub actions runner
+# GitHub actions runners
 
-### gsheet notifier
 
-```bash
-/home/pi/actions-runner
-```
+## Active Runners
 
-### ytpi
-
-```bash
-/home/pi/actions-runner-ytpi
-```
-
-### check status
-
-```bash
-sudo ./svc.sh status
-```
+| Name | Location |
+|--------|---------|
+|gsheet notifier|`/home/pi/actions-runner`|
+|video downloader|`/home/pi/actions-runner-ytpi`|
 
 ## Useful GitHub Runner Commands
 
-### Start Runner
-
-```bash
-sudo ./svc.sh start
-```
-
-### Stop Runner
-
-```bash
-sudo ./svc.sh stop
-```
-
-### Restart Runner
-
-```bash
-sudo ./svc.sh restart
-```
-
-### Check Runner Status
-
-```bash
-sudo ./svc.sh status
-```
-
-### Install Runner
-
-```bash
-./config.sh --url <repository-url> --token <runner-token>
-```
-
-### Uninstall Runner
-
-```bash
-sudo ./svc.sh uninstall
-```
-
-### Update Runner
-
-```bash
-sudo ./svc.sh update
-```
+| Command            | Description         | Example Usage                                      |
+|--------------------|--------------------|----------------------------------------------------|
+| Start        | Start the runner    | `sudo ./svc.sh start`                              |
+| Stop        | Stop the runner     | `sudo ./svc.sh stop`                               |
+| Restart     | Restart the runner  | `sudo ./svc.sh restart`                            |
+| Check Status       | Check runner status | `sudo ./svc.sh status`                             |
+| Install     | Install the runner  | `./config.sh --url <repository-url> --token <runner-token>` |
+| Uninstall   | Uninstall runner    | `sudo ./svc.sh uninstall`                          |
+| Update      | Update the runner   | `sudo ./svc.sh update`                             |
 
